@@ -303,8 +303,8 @@ fastLink <- function(dfA, dfB, varnames,
     }
 
     ## Get row numbers
-    nr_a <- nrow(dfA)
-    nr_b <- nrow(dfB)
+    nr_a <- as.numeric(nrow(dfA))
+    nr_b <- as.numeric(nrow(dfB))
 
     ## ------------------------------
     ## Get counts for zeta parameters
